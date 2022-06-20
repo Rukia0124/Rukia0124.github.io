@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h4 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+body {
+    background: rgb(167, 167, 167);
+    color: aliceblue;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+sidebar {
+    display: block;
+    background: rgba(84, 84, 84, 0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 380px;
+}
+
+#profile-picture {
+    width: 140px;
+    border: 1px solid pink;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.header {
+    height: 135px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header h4 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgba(206, 202, 202, 1);
+    padding: 10px;
+}
+
+.header h3 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.infos-personelles {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.mail,
+.tel,
+.adresse,
+.permis {
+    background: rgba(196, 196, 196, 0.35);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+
+.infos-personelles i {
+    padding-right: 40px;
+    padding-left: 10px;
+    color: pink;
+}
+
+.infos {
+    background: rgba(196, 196, 196, 0.35);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+
+.level {
+    color: pink;
+    letter-spacing: 5px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+    line-height: 2px;
+}
+
+a i {
+    color: aliceblue;
+    padding-right: 10px;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+        'tit tit tit tit'
+        'img1 img2 img3 img4'
+        'txt1 txt2 txt3 txt4';
+    gap: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 10px;
+}
+
+.hobbies i {
+    color: pink;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+}
+
+.hobbies h4 {
+    grid-area: tit;
+    text-align: justify;
+}
